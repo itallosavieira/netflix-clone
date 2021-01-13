@@ -18,6 +18,7 @@
 .movieRow--item {
     display: inline-block;
     width: 150px;
+    cursor: pointer;
 }
 
 .movieRow--item img {
@@ -27,7 +28,7 @@
 .movieRow--item img {
     width: 100%;
     transform: scale(0.9);
-    transition: .2s ease-in-out;
+    transition: all ease .2s;
 }
 
 .movieRow--item img:hover {
